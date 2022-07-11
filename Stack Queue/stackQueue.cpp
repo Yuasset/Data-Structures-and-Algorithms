@@ -49,7 +49,7 @@ void printQueue() //Kuyruk elemanlarını yazdıran fonksiyon
     printf("\nKuyruk elemanları: ");
     for (int i = front; i <= rear; i++) //Front(ön) düğümünü i değişkeni sayacına aktar ve i değişkenini Rear(arka) düğümün tuttuğu sıra değerine ulaşına kadar birer arttır
     {
-        printf("%d, ", queue[i]); //Kuyruğu diziyle sırasıyla yazdır
+        printf("%d, ", queue[i]); //Kuyruğu sırasıyla yazdır
     }
 }
 void printStack() //Yığın elemanlarını yazdıran fonksiyon
